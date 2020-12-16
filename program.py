@@ -1,0 +1,5 @@
+print("Commands:")
+print("[list] for the list of movies")
+print("[edit] for changing and deleting elements in the list")
+print("[sort] for sorting the movies")
+print("[search] for searching if the movie exixts")
