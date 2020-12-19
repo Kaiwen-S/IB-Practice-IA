@@ -6,7 +6,7 @@ print("[search] for searching if the movie exixts")
 print("[quit] to exit")
 
 loop = True #enter the loop
-chance = 3
+chance = 3 #number of invalid commands permitted
 while loop == True:
     c=input("Type in your anticipated action:")
 
