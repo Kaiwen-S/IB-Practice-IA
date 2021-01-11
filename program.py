@@ -1,3 +1,8 @@
+from add_to_like import *
+from moviesorting import *
+from Search import *
+
+
 print("Commands:")
 print("[list] for the list of movies")
 print("[edit] for changing and deleting elements in the list")
