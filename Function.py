@@ -43,3 +43,16 @@ def FileIntoList(x):
     file=open(x)
     file_string=file.read()
     file_array=file_string.split(' ')
+
+def StringInsideString(a,ls):
+    Result=[]
+    Found=False
+    for i in ls:
+        if a in i:
+            Result.append(i)
+            Found=True
+    if Found=True:
+        print(Result)
+    else:
+        print('Not Found!')
+            
