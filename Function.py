@@ -38,3 +38,8 @@ def sorting_alphabet(movies_arr):
                 movies_arr[i],movies_arr[j]=movies_arr[j],movies_arr[i]
     for i in range(len(movies_arr)):
         print(movies_arr[i])
+
+def FileIntoList(x):
+    file=open(x)
+    file_string=file.read()
+    file_array=file_string.split(' ')
