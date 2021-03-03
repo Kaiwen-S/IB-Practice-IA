@@ -43,6 +43,7 @@ def FileIntoList(x):
     file=open(x)
     file_string=file.read()
     file_array=file_string.split(' ')
+    return file_array
 
 def StringInsideString(a,ls):
     Result=[]
