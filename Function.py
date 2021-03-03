@@ -57,9 +57,11 @@ def StringInsideString(a,ls):
     else:
         print('Not Found!')
 
-def OutPut():
+def OutPut(x):
     doc=open("yout_movie_list.txt","w")
-    print(file_array,file=doc)
+    for i in x:
+        print(i)
+        print(i,file=doc)
     doc.close()
     
     
