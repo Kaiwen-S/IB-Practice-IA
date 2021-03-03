@@ -52,7 +52,7 @@ def StringInsideString(a,ls):
         if a in i:
             Result.append(i)
             Found=True
-    if Found=True:
+    if Found==True:
         print(Result)
     else:
         print('Not Found!')
