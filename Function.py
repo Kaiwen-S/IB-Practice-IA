@@ -58,7 +58,7 @@ def StringInsideString(a,ls):
         print('Not Found!')
 
 def OutPut(x):
-    doc=open("your_movie_list.txt","w")
+    doc=open("yout_movie_list.txt","w")
     for i in x:
         print(i)
         print(i,file=doc)
