@@ -1,6 +1,5 @@
 from add_to_like import *
-from moviesorting import *
-from Search import *
+from Function import *
 
 
 print("Commands:")
