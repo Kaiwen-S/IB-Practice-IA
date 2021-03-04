@@ -23,6 +23,14 @@ while loop == True:
         if edit_c=="A":
             
         if edit_c=="D":
+            
+    if c == "sort":
+        
+    if c == "search":
+        
+    if c == "quit":
+        break
+    
     else:
         print("Your command is invalid, please try again.\n You have " + n + " more chances.")
         if chance==0:
