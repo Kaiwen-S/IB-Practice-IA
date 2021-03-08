@@ -42,7 +42,7 @@ def sorting_alphabet(movies_arr):
 def FileIntoList(x):
     file=open(x)
     file_string=file.read()
-    file_array=file_string.split(' ')
+    file_array=file_string.split('\n')
     return file_array
 
 def StringInsideString(a,ls):
