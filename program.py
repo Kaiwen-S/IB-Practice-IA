@@ -2,7 +2,7 @@ from add_to_like import *
 from Function import *
 
 print("Commands:")
-print("[list] for the list of movies")
+print("[lis] for the list of movies")
 print("[edit] for changing and deleting elements in the list")
 print("[sort] for sorting the movies")
 print("[search] for searching if the movie exixts")
@@ -10,14 +10,14 @@ print("[quit] to exit")
 print("[output] to write your movielist into your_movie_list.txt")
 print('Warning! Use [search] before [edit]')
 
-movielist=[]
+movielist=FileIntoList("database.txt")
 
 loop = True #enter the loop
 chance = 3 #number of invalid commands permitted
 while loop == True:
     c=input("Type in your anticipated action:")
 
-    if c == "list":
+    if c == "lis":
         print(movielist)
     
     if c == "edit":
@@ -51,7 +51,7 @@ while loop == True:
         break
     
     else:
-        print("Your command is invalid, please try again.\n You have " + n + " more chances.")
+        print("Your command is invalid, please try again.\n You have ",chance," more chances.")
         if chance==0:
             loop = False
         chance-=1
