@@ -51,7 +51,7 @@ while loop == True:
         print(StringInsideString(instruction,movielist))
         print('input edit to add that into your')
     if c == 'output':
-        OutPut("your_movie_list.TXT")
+        OutPut(your_movie_list)
     if c == "quit":
         break
     
