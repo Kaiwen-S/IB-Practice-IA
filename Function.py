@@ -56,6 +56,7 @@ def StringInsideString(a,ls):
         print(Result)
     else:
         print('Not Found!')
+    return Found
 
 def OutPut(x):
     doc=open("yout_movie_list.txt","w")

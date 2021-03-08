@@ -25,9 +25,11 @@ while loop == True:
         if edit_c=="D":
             
     if c == "sort":
-        
+                
     if c == "search":
-        
+        print('Use _ (underline) to denote space')
+        item = input('Type in key words:')
+        StringInsideString(item,FileIntoList("database.txt"))
     if c == "quit":
         break
     
