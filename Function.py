@@ -53,10 +53,9 @@ def StringInsideString(a,ls):
             Result.append(i)
             Found=True
     if Found==True:
-        print(Result)
+        return Result
     else:
-        print('Not Found!')
-    return Found
+        return "Not Found!"
 
 def OutPut(x):
     doc=open("yout_movie_list.txt","w")
